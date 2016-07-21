@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<style>
+    * {
+        margin: 0; padding: 0;
+    }
+    html, body, #container {
+        height: 100%;
+    }
+
+    main {
+        height: 100%;
+        width: 100%;
+
+    }
+    .left {
+        width: 33%;
+        background: red;
+    }
+    .center {
+        width: 33%;
+        background: pink;
+    }
+    .right {
+        width: 33%;
+        background: blue;
+    }
+    .top {
+        height: 30%;
+        background: orange;
+    }
+    .middle {
+        height: 50%;
+        background: white;
+    }
+    .bottom {
+        height: 20%;
+        background: lightgreen;
+    }
+
+</style>
+<div id="container">
+    <header></header>
+    <main>
+        <section class="top">
+            <div style="float:left; width:33%; height: 100%; background: cornflowerblue ">Logo</div>
+            <div style="float:left; width:33%; height:100%; background: indianred ">Menu</div>
+            <div style="float:left; width:34%; height: 100%; background: lightgoldenrodyellow ">Links</div>
+        </section>
+        <section class="middle">
+            <div style="float:left; width:80%; height: 100%; background: darkorange ">Message</div>
+            <div style="float:left; width:20%; height: 100%; background: orangered ">Slider</div>
+
+        </section>
+        <section class="bottom">Footer</section>
+    </main>
+</div>
+</body>
+</html>
